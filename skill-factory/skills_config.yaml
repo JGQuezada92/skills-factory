@@ -1,0 +1,184 @@
+# Claude Skills Generator Configuration
+# Hedge Fund Technology Investment Analysis Skill
+
+# ==============================================================================
+# BUSINESS INFORMATION
+# ==============================================================================
+
+business:
+  description: |
+    I am a technology-focused hedge fund analyst and portfolio manager specializing in 
+    high-conviction investments in AI, cryptocurrency, blockchain, and emerging technology 
+    sectors. My workflow involves deep fundamental analysis, thesis development, market 
+    opportunity sizing, competitive landscape assessment, and risk/reward evaluation. 
+    I produce institutional-grade investment memos that synthesize complex technical 
+    concepts, market dynamics, and financial projections into actionable investment 
+    recommendations. My analysis style mirrors top-tier hedge funds like Coatue, Tiger 
+    Global, and a16z - combining rigorous fundamental research with forward-looking 
+    technology trend analysis.
+  
+  industry: "Investment Management - Technology & Digital Assets"
+  
+  team_size: "1-5"
+  
+  primary_workflows:
+    - "Investment Thesis Development"
+    - "Fundamental Company Analysis"
+    - "Technology Trend Analysis"
+    - "Market Opportunity Assessment"
+    - "Risk/Reward Evaluation"
+    - "Investment Memo Writing"
+
+# ==============================================================================
+# SKILL GENERATION REQUIREMENTS
+# ==============================================================================
+
+skills:
+  count: 1
+  
+  overlap_strategy: "overlapping"
+  
+  use_cases:
+    - name: "AI-Crypto-Tech Hedge Fund Investment Analyst"
+      description: |
+        Conduct comprehensive investment analysis for technology companies and digital assets 
+        with focus on AI, cryptocurrency, blockchain, and emerging technology sectors. This 
+        skill should perform analysis at the level of an experienced hedge fund portfolio 
+        manager, including:
+        
+        **Core Analysis Components:**
+        - Company/Protocol Overview: Business model, technology stack, competitive positioning
+        - Market Opportunity: TAM/SAM/SOM analysis, growth drivers, market dynamics
+        - Technology Assessment: Product differentiation, technical moats, innovation potential
+        - Competitive Landscape: Key competitors, market share, competitive advantages
+        - Financial Analysis: Unit economics, revenue model, profitability path, valuation
+        - Management & Team: Founder quality, execution track record, strategic vision
+        - Risk Analysis: Technology risks, regulatory risks, market risks, execution risks
+        
+        **AI-Specific Analysis:**
+        - Model architecture and training approach
+        - Data moats and competitive advantages
+        - Compute requirements and scaling economics
+        - Application layer vs infrastructure positioning
+        - AI integration strategy and product roadmap
+        
+        **Crypto/Blockchain Analysis:**
+        - Protocol design and tokenomics
+        - Network effects and adoption metrics
+        - Decentralization and security model
+        - On-chain activity and wallet analysis
+        - Token utility and value accrual mechanisms
+        
+        **Investment Thesis Development:**
+        - "Why now?" - Catalysts and inflection points
+        - "Why this company?" - Differentiation and competitive moats
+        - "What could go right?" - Bull case scenario with upside drivers
+        - "What could go wrong?" - Bear case and key risks
+        - Base case, bull case, bear case projections
+        - Price target methodology and valuation framework
+        
+        **Output Requirements:**
+        - Generate 1-2 page investment memo in hedge fund style
+        - Clear investment recommendation (Strong Buy, Buy, Hold, Sell, Strong Sell)
+        - Executive summary with 3-5 key investment points
+        - Catalysts and timeline for value realization
+        - Position sizing recommendation based on conviction level
+        - Key metrics dashboard (revenue growth, margins, user growth, etc.)
+        - Comp table with peer valuations
+        
+        **Writing Style:**
+        - Direct, high-conviction language
+        - Data-driven with specific metrics and examples
+        - Forward-looking with clear thesis on "what happens next"
+        - Balanced presentation of bull/bear cases
+        - Institutional quality suitable for LP/investment committee presentation
+        
+        The skill should handle inputs like:
+        - Company pitch decks or investor presentations
+        - Financial statements and operating metrics
+        - Technical whitepapers or documentation
+        - Market research reports
+        - On-chain data or usage analytics
+        - News articles and industry analysis
+        
+        Output should be formatted as professional investment memo with sections for:
+        Investment Recommendation, Executive Summary, Company Overview, Market Opportunity, 
+        Competitive Analysis, Financial Projections, Valuation, Risks, Catalysts, and Conclusion.
+        
+      requires_python: true
+      sample_data_type: "excel"
+
+# ==============================================================================
+# ADVANCED OPTIONS
+# ==============================================================================
+
+advanced:
+  integrations:
+    - "Excel (financial models and comp tables)"
+    - "PDF generation (investment memos)"
+    - "Financial data APIs (market data, crypto prices)"
+    - "On-chain analytics platforms (Dune, Nansen conceptual integration)"
+    - "PowerPoint (pitch deck analysis)"
+  
+  domain_knowledge:
+    - "Hedge fund investment memo structure and conventions"
+    - "Technology sector valuation methodologies (EV/Revenue, P/S multiples, DCF)"
+    - "AI/ML terminology (LLMs, diffusion models, transformers, RAG, fine-tuning)"
+    - "Blockchain/crypto terminology (DeFi, L1/L2, MEV, staking, tokenomics)"
+    - "SaaS metrics (ARR, NRR, CAC, LTV, Rule of 40, Magic Number)"
+    - "Venture capital stage terminology (Seed, Series A-F, growth equity)"
+    - "Investment analysis frameworks (Porter's Five Forces, TAM-SAM-SOM, unit economics)"
+    - "Regulatory landscape (SEC guidelines, crypto regulation, AI policy)"
+    - "Market microstructure and trading dynamics"
+    - "Technology adoption curves and network effects"
+  
+  preferred_languages:
+    - "python"
+  
+  constraints:
+    - "Must maintain analytical objectivity and present balanced bull/bear cases"
+    - "Must cite data sources and assumptions clearly"
+    - "Financial projections must show methodology and sensitivity analysis"
+    - "Must flag high uncertainty or speculative elements"
+    - "Must handle confidential information appropriately (no external API calls with sensitive data)"
+    - "Output must be suitable for institutional investor consumption"
+    - "Should complete analysis and generate memo in under 10 minutes"
+
+# ==============================================================================
+# METADATA
+# ==============================================================================
+
+metadata:
+  config_version: "1.0"
+  created_date: "2025-10-25"
+  last_modified: "2025-10-25"
+  author: "Investment Analyst"
+  organization: "Technology Investment Fund"
+
+generation_settings:
+  claude_model: "claude-sonnet-4-20250514"
+  prompt_template_version: "1.0"
+  generation_mode: "batch"
+
+tracking:
+  project_id: "tech-investment-analysis-v1"
+  tags:
+    - "hedge-fund"
+    - "technology"
+    - "ai"
+    - "crypto"
+    - "investment-analysis"
+  notes: "Skill for conducting hedge fund-style investment analysis on AI, crypto, and emerging technology opportunities"
+
+# ==============================================================================
+# OUTPUT PREFERENCES
+# ==============================================================================
+
+output:
+  output_directory: "C:/Users/Jonathan Quezada/OneDrive - Phenom People, Inc/Desktop/Claude Skills/generated_skills"
+  
+  include_testing_guides: true
+  
+  sample_data_style: "realistic"
+  
+  test_scenario_depth: "comprehensive"

@@ -1,0 +1,114 @@
+# Claude Skills Generator Configuration - EXAMPLE
+# This is a complete example showing how to fill out the configuration file
+# Copy this to skills_config.yaml and customize for your needs
+
+# ==============================================================================
+# BUSINESS INFORMATION
+# ==============================================================================
+
+business:
+  description: |
+    We are a financial services company providing investment management and 
+    portfolio analytics to institutional clients. Our team of 25 analysts uses 
+    data analysis, financial modeling, and client reporting tools daily. We work 
+    primarily with SEC filings, market data, and custom financial models to generate 
+    insights and recommendations for our clients. Our deliverables include detailed 
+    Excel models, PowerPoint presentations, and executive summaries.
+  
+  industry: "Financial Services - Investment Management"
+  
+  team_size: "10-50"
+  
+  primary_workflows:
+    - "SEC Filing Analysis"
+    - "Financial Model Creation"
+    - "Client Reporting"
+    - "Portfolio Analytics"
+    - "Market Research"
+
+# ==============================================================================
+# SKILL GENERATION REQUIREMENTS
+# ==============================================================================
+
+skills:
+  count: 3
+  
+  overlap_strategy: "overlapping"
+  
+  use_cases:
+    - name: "SEC Financial Modeling"
+      description: |
+        Analyze SEC financial filings (10-K, 10-Q, 8-K) and automatically create 
+        comprehensive financial models in Excel. The skill should extract key 
+        financial data, calculate important ratios (P/E, ROE, Debt/Equity, etc.), 
+        perform trend analysis over multiple periods, and generate formatted Excel 
+        workbooks with formulas, charts, and conditional formatting. Must handle 
+        various company sizes and industries, detect anomalies, and flag potential 
+        red flags for analysts.
+      requires_python: true
+      sample_data_type: "excel"
+      
+    - name: "Investment Presentation Builder"
+      description: |
+        Generate professional investor presentations and executive summaries from 
+        financial data and analysis. Should create PowerPoint slides with consistent 
+        branding, data visualizations, key metrics highlights, and narrative 
+        summaries. Must support multiple presentation types: quarterly reviews, 
+        investment theses, portfolio performance reports, and market outlook decks. 
+        Include automated chart generation from data and smart layout suggestions.
+      requires_python: false
+      sample_data_type: "json"
+      
+    - name: "Portfolio Risk Analytics"
+      description: |
+        Perform comprehensive portfolio risk analysis including VaR calculations, 
+        correlation matrices, stress testing scenarios, and factor exposure analysis. 
+        Should process multiple portfolio positions, calculate risk metrics, generate 
+        risk reports with visualizations, and provide actionable recommendations. 
+        Must handle various asset classes and support both historical and Monte Carlo 
+        simulation approaches. Output should be Excel format with detailed breakdowns.
+      requires_python: true
+      sample_data_type: "csv"
+
+# ==============================================================================
+# ADVANCED OPTIONS
+# ==============================================================================
+
+advanced:
+  integrations:
+    - "Microsoft Excel (complex formulas and formatting)"
+    - "PowerPoint (branded templates)"
+    - "Bloomberg Terminal data format"
+    - "FactSet data exports"
+  
+  domain_knowledge:
+    - "GAAP accounting standards"
+    - "SEC filing formats and regulations"
+    - "Financial ratio calculations and interpretation"
+    - "Investment industry terminology"
+    - "Risk management frameworks (VaR, CVaR, etc.)"
+    - "Portfolio construction best practices"
+  
+  preferred_languages:
+    - "python"
+  
+  constraints:
+    - "Must maintain data confidentiality (no external API calls for sensitive data)"
+    - "Excel files must be formula-based for client transparency"
+    - "Must handle portfolios with up to 500 positions"
+    - "Calculations must be auditable and traceable"
+    - "Output must comply with investment advisory disclosure requirements"
+
+# ==============================================================================
+# OUTPUT PREFERENCES
+# ==============================================================================
+
+output:
+  output_directory: "./generated_skills"
+  
+  include_testing_guides: true
+  
+  sample_data_style: "realistic"
+  
+  test_scenario_depth: "comprehensive"
+
