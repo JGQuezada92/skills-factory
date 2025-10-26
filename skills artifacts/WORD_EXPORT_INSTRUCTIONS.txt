@@ -1,0 +1,21 @@
+
+Word Export Instructions
+=========================
+
+The required Word libraries are not installed. To generate Word document:
+
+Option 1: Install libraries and re-run
+---------------------------------------
+pip install python-docx
+
+Option 2: Manual conversion
+----------------------------
+1. Open the Markdown file: C:\Users\Jonathan Quezada\OneDrive - Phenom People, Inc\Desktop\Claude Skills\skills artifacts\Example_Company_Investment_Memo_20251025_154629.md
+2. Copy the content
+3. Paste into Microsoft Word
+4. Apply formatting as needed
+5. Save to: C:\Users\Jonathan Quezada\OneDrive - Phenom People, Inc\Desktop\Claude Skills\skills artifacts
+
+Option 3: Use Pandoc
+---------------------
+pandoc input.md -o output.docx

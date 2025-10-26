@@ -1,0 +1,22 @@
+
+PDF Export Instructions
+========================
+
+The required PDF libraries are not installed. To generate PDF:
+
+Option 1: Install libraries and re-run
+---------------------------------------
+pip install markdown2 weasyprint
+
+Option 2: Manual conversion
+----------------------------
+1. Open the Markdown file: C:\Users\Jonathan Quezada\OneDrive - Phenom People, Inc\Desktop\Claude Skills\skills artifacts\Example_Company_Investment_Memo_20251025_154629.md
+2. Use an online converter: https://www.markdowntopdf.com/
+3. Or use Pandoc: pandoc input.md -o output.pdf
+
+Option 3: Print to PDF from Claude
+-----------------------------------
+1. View the memo in Claude
+2. Use your browser's Print function (Ctrl+P)
+3. Select "Save as PDF"
+4. Save to: C:\Users\Jonathan Quezada\OneDrive - Phenom People, Inc\Desktop\Claude Skills\skills artifacts

@@ -1,0 +1,236 @@
+INVOCATION PROMPTS FOR AI-CRYPTO-TECH HEDGE FUND INVESTMENT ANALYST SKILL
+===================================================================================
+
+Basic Invocation
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill. Can you make something amazing with it?
+
+[Attach sample financial data or company information]
+
+---
+
+Specific AI Company Analysis
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill. 
+
+I need a full investment memo on an AI infrastructure company. They're building LLM training infrastructure with $500M ARR, growing 300% YoY, currently raising at a $5B valuation. 
+
+Key metrics:
+- Revenue: $500M (up from $125M last year)
+- Gross Margin: 60%
+- R&D spending: $200M/year
+- Top 3 customers: OpenAI, Anthropic, Meta
+- Competitive with AWS, GCP, Azure
+
+Can you analyze this opportunity and provide a clear buy/sell recommendation?
+
+---
+
+Crypto Protocol Analysis
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+Evaluate this L1 blockchain protocol as an investment:
+
+Protocol: High-performance blockchain
+- Current market cap: $10B
+- Annual fees: $500M
+- Active addresses: 2M (growing 50% QoQ)
+- TVL: $15B
+- Token inflation: 5% annual
+- Validators: 1,200 nodes
+
+Compare to Ethereum, Solana, and provide investment thesis.
+
+---
+
+Comparison Analysis
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+I'm evaluating two AI companies for investment. Can you create a comparative analysis and recommendation?
+
+Company A: Foundation model developer
+- Revenue: $2B, growing 400% YoY
+- Losses: $500M/year
+- Valuation: $80B (40x revenue)
+
+Company B: AI infrastructure/tooling
+- Revenue: $750M, growing 80% YoY  
+- Profitable: $75M EBITDA (10% margin)
+- Valuation: $7B (9.3x revenue)
+
+Which is the better investment and at what position size?
+
+---
+
+Risk Assessment Focus
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+I need a detailed risk assessment for this investment opportunity:
+
+[Company details]
+
+Focus on:
+- Regulatory risks (AI regulation, data privacy)
+- Technology risks (model performance, competition)
+- Market risks (enterprise adoption, pricing pressure)
+- Financial risks (cash burn, capital needs)
+
+Generate risk matrix with probability-impact analysis and mitigation strategies.
+
+---
+
+Valuation Deep Dive
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+Perform comprehensive valuation analysis for this SaaS AI company:
+
+Financials:
+- ARR: $100M
+- Growth: 150% YoY
+- NRR: 130%
+- Gross margin: 75%
+- Burn: $3M/month
+- Runway: 18 months
+
+Use multiple methodologies:
+- DCF with 10-year projections
+- Revenue multiples vs peers
+- Rule of 40 analysis
+- Scenario analysis (bull/base/bear)
+
+Target valuation range and price per share recommendations.
+
+---
+
+Quick Investment Take
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+Quick take request: Should we invest in this crypto exchange?
+
+- Trading volume: $50B/month
+- Take rate: 0.15%
+- Monthly revenue: $75M (annualized $900M)
+- Growing 20% QoQ
+- Trading at $12B valuation (13.3x revenue)
+
+Compare to Coinbase, FTX (pre-collapse). 1-page quick take with recommendation.
+
+---
+
+Market Opportunity Sizing
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+Help me size the market opportunity for an AI coding assistant:
+
+Product: AI-powered IDE for developers
+- Target: Professional developers
+- Pricing: $20/month/seat
+- Current users: 500K
+- TAM: All professional developers globally
+
+Provide TAM/SAM/SOM analysis with bottoms-up and top-down approaches.
+What's realistic revenue potential in 5 years?
+
+---
+
+Thesis Development
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+Develop investment thesis for emerging AI trend:
+
+Trend: Specialized AI models for vertical industries (healthcare, legal, finance)
+Timeline: Early stage, first products launching
+Market: Large enterprises slow to adopt general models due to compliance/accuracy
+
+Framework:
+- Why now? (market timing and catalysts)
+- What companies are positioned to win?
+- What's the revenue opportunity?
+- What are key risks?
+- Investment recommendations across public and private markets
+
+---
+
+Portfolio Construction
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+Portfolio construction help:
+
+Current holdings:
+- OpenAI exposure: 8%
+- Coinbase: 5%
+- NVIDIA: 6%
+- MicroStrategy: 3%
+
+Considering adding:
+- AI infrastructure startup (private, Series D)
+- DeFi protocol (public token)
+
+Analyze diversification, risk concentration, suggested position sizes for new additions.
+
+---
+
+Due Diligence Checklist
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+Create due diligence checklist for:
+
+Target: AI model API company
+Stage: Series C ($150M raise at $1.5B post)
+Sector: Enterprise AI infrastructure
+
+Generate comprehensive DD checklist covering:
+- Technology validation
+- Financial analysis
+- Market assessment
+- Team evaluation
+- Legal/IP review
+- Customer references
+- Competitive intelligence
+
+---
+
+Bear Case Analysis
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+I'm bullish on this AI company but need you to challenge my thesis:
+
+[Company details]
+
+My bull case: [reasons]
+
+Generate strongest possible bear case including:
+- What could go fundamentally wrong?
+- What am I missing?
+- What assumptions are most vulnerable?
+- How could I lose 50%+ of my investment?
+
+---
+
+Exit Strategy Planning
+-------------------
+Hey Claude—I just added the "ai-crypto-tech-hedge-fund-investment-analyst" skill.
+
+We invested in this crypto protocol 18 months ago:
+
+Entry: $2B valuation
+Current: $8B valuation (4x return)
+Position size: 6% of fund
+
+Should we:
+1. Take profits (sell some/all)?
+2. Hold for more upside?
+3. Add to position?
+
+Analyze exit strategies with catalysts, risks, and timing considerations.
+
